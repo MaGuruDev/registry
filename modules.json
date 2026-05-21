@@ -1,0 +1,22 @@
+{
+    "modules": [
+        {
+            "name": "MaGuru_ProductTabs",
+            "description": "MaGuru ProductTabs Extension",
+            "is_active": true,
+            "github_repo": "MaGuruDev/DraggableProductTabs",
+            "change_log": "https://github.com/MaGuruDev/DraggableProductTabs/blob/master/CHANGELOG.md",
+            "user_guide": "https://github.com/MaGuruDev/DraggableProductTabs/blob/master/README.md",
+            "link": "https://github.com/MaGuruDev/DraggableProductTabs"
+        },
+        {
+            "name": "MaGuru_Language_uk_UA",
+            "description": "MaGuru Language Pack uk_UA",
+            "is_active": true,
+            "github_repo": "MaGuruDev/Language_uk_UA",
+            "change_log": "https://github.com/MaGuruDev/Language_uk_UA/blob/master/CHANGELOG.md",
+            "user_guide": "https://github.com/MaGuruDev/Language_uk_UA/blob/master/README.md",
+            "link": "https://github.com/MaGuruDev/Language_uk_UA"
+        }
+    ]
+}
