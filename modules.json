@@ -1,154 +1,235 @@
 {
-      "modules": [
-          {
-              "name": "MaGuru_ProductTabs",
-              "description": "MaGuru ProductTabs Extension",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "MaGuruDev/DraggableProductTabs",
-              "change_log": "https://github.com/MaGuruDev/DraggableProductTabs/blob/master/CHANGELOG.md",
-              "user_guide": "https://github.com/MaGuruDev/DraggableProductTabs/blob/master/README.md",
-              "link": "https://github.com/MaGuruDev/DraggableProductTabs"
-          },
-          {
-              "name": "MaGuru_Language_uk_UA",
-              "description": "MaGuru Language Pack uk_UA",
-              "is_active": true,
-              "version": "1.0.7",
-              "github_repo": "MaGuruDev/Language_uk_UA",
-              "change_log": "https://github.com/MaGuruDev/Language_uk_UA/blob/master/CHANGELOG.md",
-              "user_guide": "https://github.com/MaGuruDev/Language_uk_UA/blob/master/README.md",
-              "link": "https://github.com/MaGuruDev/Language_uk_UA"
-          },
-          {
-              "name": "MaGuru_Core",
-              "description": "MaGuru Core Extension",
-              "is_active": true,
-              "version": "1.1.3",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_EsputnikCore",
-              "description": "eSputnik Integration Core Module for Magento 2",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_EsputnikBackend",
-              "description": "eSputnik Integration for Magento 2 — Backend Sync Module",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_EsputnikFrontend",
-              "description": "MaGuru eSputnik Frontend — JS tracking, Web Push, and abandoned cart for Magento 2",                                                                                                                                                           
-              "is_active": true,
-              "version": "1.2.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_EsputnikEmail",
-              "description": "eSputnik Integration Email Module for Magento 2 — transactional email interception",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_EsputnikMessaging",
-              "description": "MaGuru eSputnik Messaging — SMS/Push via SmartSend API for Magento 2",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_MonoCore",
-              "description": "Monobank Integration Core Module for Magento 2 — HTTP client, config, ECDSA webhook verification",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_MonoPayment",
-              "description": "Monobank Acquiring Payment Gateway for Magento 2 — redirect/iFrame checkout, saved cards, MonoPay Button, QR, split payments, subscriptions, statement sync",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_MonoChast",
-              "description": "Monobank 'Частинами' BNPL Payment Method for Magento 2 — installment checkout, auto-confirm, client pre-validation, daily reconciliation",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_MonoFiscal",
-              "description": "Monobank ПРРО Fiscal Integration for Magento 2 — automatic fiscal receipt fetch, basket order injection, fiscalization on returns, customer email notification",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_MonoBundle",
-              "description": "MaGuru Monobank Full Bundle for Magento 2 — includes MonoPayment, MonoChast, and MonoFiscal with shared MonoCore infrastructure",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_RzDelivery",
-              "description": "Rozetka Delivery shipping integration for Magento 2",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          },
-          {
-              "name": "MaGuru_CheckboxFiscal",
-              "description": "Checkbox ПРРО Direct Fiscal Integration for Magento 2 — standalone, payment-method-agnostic",
-              "is_active": true,
-              "version": "1.0.0",
-              "github_repo": "",
-              "change_log": "",
-              "user_guide": "",
-              "link": ""
-          }
-      ]
+  "modules": [
+    {
+      "name": "MaGuru_ProductTabs",
+      "description": "MaGuru ProductTabs Extension",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "for_sale",
+      "github_repo": "MaGuruDev/DraggableProductTabs",
+      "change_log": "https://github.com/MaGuruDev/DraggableProductTabs/blob/master/CHANGELOG.md",
+      "user_guide": "https://github.com/MaGuruDev/DraggableProductTabs/blob/master/README.md",
+      "link": "https://github.com/MaGuruDev/DraggableProductTabs"
+    },
+    {
+      "name": "MaGuru_Language_uk_UA",
+      "description": "MaGuru Language Pack uk_UA",
+      "is_active": true,
+      "version": "1.0.7",
+      "dev_status": "for_sale",
+      "github_repo": "MaGuruDev/Language_uk_UA",
+      "change_log": "https://github.com/MaGuruDev/Language_uk_UA/blob/master/CHANGELOG.md",
+      "user_guide": "https://github.com/MaGuruDev/Language_uk_UA/blob/master/README.md",
+      "link": "https://github.com/MaGuruDev/Language_uk_UA"
+    },
+    {
+      "name": "MaGuru_Core",
+      "description": "MaGuru Core Extension",
+      "is_active": true,
+      "version": "1.1.3",
+      "dev_status": "for_sale",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_EsputnikCore",
+      "description": "eSputnik Integration Core Module for Magento 2",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_EsputnikBackend",
+      "description": "eSputnik Integration for Magento 2 — Backend Sync Module",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_EsputnikFrontend",
+      "description": "MaGuru eSputnik Frontend — JS tracking, Web Push, and abandoned cart for Magento 2",
+      "is_active": true,
+      "version": "1.2.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_EsputnikEmail",
+      "description": "eSputnik Integration Email Module for Magento 2 — transactional email interception",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_EsputnikMessaging",
+      "description": "MaGuru eSputnik Messaging — SMS/Push via SmartSend API for Magento 2",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_MonoCore",
+      "description": "Monobank Integration Core Module for Magento 2 — HTTP client, config, ECDSA webhook verification",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_MonoPayment",
+      "description": "Monobank Acquiring Payment Gateway for Magento 2 — redirect/iFrame checkout, saved cards, MonoPay Button, QR, split payments, subscriptions, statement sync",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_MonoChast",
+      "description": "Monobank 'Частинами' BNPL Payment Method for Magento 2 — installment checkout, auto-confirm, client pre-validation, daily reconciliation",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_MonoFiscal",
+      "description": "Monobank ПРРО Fiscal Integration for Magento 2 — automatic fiscal receipt fetch, basket order injection, fiscalization on returns, customer email notification",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_MonoBundle",
+      "description": "MaGuru Monobank Full Bundle for Magento 2 — includes MonoPayment, MonoChast, and MonoFiscal with shared MonoCore infrastructure",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_RzDelivery",
+      "description": "Rozetka Delivery shipping integration for Magento 2",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_CheckboxFiscal",
+      "description": "Checkbox ПРРО Direct Fiscal Integration for Magento 2 — standalone, payment-method-agnostic",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "ready",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_QuestCore",
+      "description": "MaGuru Quest Core — loyalty platform infrastructure for Magento 2 (customers, points, events, base API)",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "in_development",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_QuestLoyalty",
+      "description": "MaGuru Quest Loyalty — points accrual and redemption engine for Magento 2 (orders, reviews, referrals, checkout discount)",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "in_development",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_QuestRuleEngine",
+      "description": "MaGuru Quest Rule Engine — configurable condition/action rules for loyalty rewards for Magento 2",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "in_development",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_QuestEsputnik",
+      "description": "MaGuru Quest eSputnik Bridge — syncs loyalty events and segments to eSputnik for Magento 2",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "in_development",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_QuestAnalytics",
+      "description": "MaGuru Quest Analytics — loyalty program reporting, cohort analysis, and dashboards for Magento 2",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "in_development",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    },
+    {
+      "name": "MaGuru_QuestBehavior",
+      "description": "MaGuru Quest Behavior — behavioral triggers and gamification mechanics for Magento 2 loyalty",
+      "is_active": true,
+      "version": "1.0.0",
+      "dev_status": "in_development",
+      "github_repo": "",
+      "change_log": "",
+      "user_guide": "",
+      "link": ""
+    }
+  ]
 }
