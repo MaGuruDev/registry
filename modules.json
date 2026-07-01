@@ -52,7 +52,7 @@
       "name": "MaGuru_MonoPayment",
       "description": "Monobank Acquiring Payment Gateway for Magento 2 — redirect/iFrame checkout, saved cards, MonoPay Button, QR, split payments, subscriptions, statement sync",
       "is_active": true,
-      "version": "1.0.1",
+      "version": "1.1.0",
       "stability": "beta",
       "dev_status": "in_development",
       "github_repo": "MaGuruDev/MonoPayment",
